@@ -85,3 +85,5 @@ Java
 Kotlin
 Kotlin
 JavaScript
+Python
+Scala

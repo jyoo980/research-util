@@ -25,6 +25,7 @@ def show_results(items):
     print(f"Language: {lang}, Frequency: {freq:.2f}%")
 
 langs = read_file("langs.txt")
+print("File read successfully. Working...")
 freqs = counts(langs)
 freq_pcnts = compute_frequency_pcnt(freqs)
 show_results(freq_pcnts)

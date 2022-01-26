@@ -34,6 +34,7 @@ def frequencies(country_list):
     print(f"Country: {country}, Frequency: {freq} ({freq_pcnt}%)")
 
 ip_addrs = read_ip_addrs("ip_addrs.csv")
+print("Addresses read successfuly. Working...")
 countries = [get(ip) for ip in ip_addrs]
 frequencies(countries)
 
